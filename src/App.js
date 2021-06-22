@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ToDoList from "./ToDoList";
 import ToDoForm from './ToDoForm';
 
-import './app.css';
+import './App.css';
 
 function App() {
 
