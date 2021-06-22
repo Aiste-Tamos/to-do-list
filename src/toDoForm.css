@@ -1,5 +1,6 @@
 .form {
     display: flex;
+    font-size: 16px;
     margin-top: 35px;
     width: 70%;
 }
@@ -7,6 +8,8 @@
 .form input{
     background-color: rgba(238, 132, 132, 0.466);
     border: none;
+    font-size: inherit;
+    padding: 10px;
     width: 100%;
 }
 
@@ -14,4 +17,30 @@
     background-color: rgb(238, 132, 132);
     border: none;
     border-radius: 0 5px 5px 0;
+    font-size: inherit;
+}
+
+@media screen and (min-width: 500px) {
+    .form {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .form {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .form {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .form {
+        font-size: 18px;
+        width: 30%;
+    }
 }

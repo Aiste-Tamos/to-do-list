@@ -6,3 +6,27 @@
     top: 30px;
     width: 70%;
 }
+
+@media screen and (min-width: 500px) {
+    .to-do-list {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .to-do-list {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .to-do-list {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .to-do-list {
+        width: 30%;
+    }
+}
