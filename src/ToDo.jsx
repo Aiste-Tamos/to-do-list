@@ -8,7 +8,7 @@ const ToDo = ({todo, handleDelete}) => {
         <div id={todo.id} name="todo" value={todo.id} className="todo">
             {todo.task}
             <button className="bin-btn" onClick={() => handleDelete(todo.id)} aria-label="Delete button">
-                <img src={binIcon} alt="" height="80px" width="80px"></img>
+                <img src={binIcon} alt="" height="25px" width="25px"></img>
             </button>
         </div>
         
