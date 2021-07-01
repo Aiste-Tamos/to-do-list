@@ -1,5 +1,6 @@
-
 .to-do-list {
+    background-color: white;
+    box-shadow: -2px 5px 15px 0px grey;
     display: flex;
     flex-direction: column;
     margin-top: 10px;

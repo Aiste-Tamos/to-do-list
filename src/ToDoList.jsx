@@ -8,7 +8,7 @@ const ToDoList = ({todos, handleDelete, handleFilter}) => {
         <div className="to-do-list">
             {todos.map(todo => {
                 return (
-                    <ToDo todo={todo} key={todo.id} handleDelete={handleDelete} handleFilter={handleFilter}/>
+                    <ToDo todo={todo} key={todo.name} handleDelete={handleDelete} handleFilter={handleFilter}/>
                 )
             })}
         </div>

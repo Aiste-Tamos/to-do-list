@@ -32,6 +32,7 @@ useEffect(() => {
 
   return (
     <div className="app">
+      <h1 className="title">To Do List</h1>
       <ToDoForm addTask={addTask}/>
       <ToDoList todos={todos} handleDelete={handleDelete}/>
     </div>

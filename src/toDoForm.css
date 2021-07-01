@@ -6,17 +6,19 @@
 }
 
 .form input{
-    background-color: rgba(238, 132, 132, 0.466);
+    background-color: rgb(255, 255, 255);
     border: none;
+    font-family: inherit;
     font-size: inherit;
     padding: 10px;
     width: 100%;
 }
 
 .form button {
-    background-color: rgb(238, 132, 132);
+    background-color: rgb(238, 238, 238);
     border: none;
     border-radius: 0 5px 5px 0;
+    font-family: inherit;
     font-size: inherit;
 }
 
